@@ -1,7 +1,9 @@
 /*********************************************************************
 element selectors
 *********************************************************************/
-
+article {
+  display: inline-block;
+}
 
 
 
@@ -12,9 +14,44 @@ element selectors
 class-selectors
 *********************************************************************/
 
+.main {
+  margin: 0 10%;
+}
 
+.tlsection {
+  display: inline-block;
+}
 
+.tltime {
+  z-index: 1;
+  display: inline-block;
+  float: left;
+  padding: 0 20% 0 0;
+}
 
+.tltimedate {
+  display: block;
+  text-align: right;
+}
+
+.tltimetime {
+  display: block;
+  text-align: right
+}
+
+.tlicon {
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  padding: 5% 0 90% 0;
+}
+
+.tlcontent {
+  z-index: 1;
+  width: 30%;
+  margin: none;
+}
 
 /*********************************************************************
 
