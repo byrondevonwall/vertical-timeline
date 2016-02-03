@@ -26,31 +26,83 @@ class-selectors
   z-index: 1;
   display: inline-block;
   float: left;
-  padding: 0 20% 0 0;
+  padding: 0 0 0 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .tltimedate {
   display: block;
   text-align: right;
+
 }
 
 .tltimetime {
   display: block;
   text-align: right
+  text-size: 2em;
 }
 
 .tlicon {
-  z-index: 1;
+  z-index: 0;
   display: inline-block;
   position: absolute;
+  background-color: #46a4da;
   top: 0;
-  padding: 5% 0 90% 0;
+  padding: 1% 1.5% 1% 1.5%;
+  margin: .5% 3.5% 5% 3.5%;
+  border-radius: 100%;
+  border-style:  solid;
+  border-color: #afdcf8;
+  border-width: 15px;
+}
+
+.tlicon i {
+  color: white;
+  background-color: #46a4da;
+  border-radius: 100%;
+  font-size: 2em;
+  padding: 1% 1.5% 1% 1.5%;
+  margin: .5% 3.5% 5% 3.5%;
+}
+
+.content-container {
+  margin: 0 0 0 7.5%;
+  width: 65%;
+  display: inline-block;
+  border-left-style: solid;
+  border-width: 15px;
+  border-color: #afdcf8;
 }
 
 .tlcontent {
   z-index: 1;
-  width: 30%;
-  margin: none;
+
+  margin: 0 0 0 15%;
+  padding: 0 1% 0 2%;
+  background-color: #46a4da;
+  border-radius: 1em;
+}
+.caret {
+    border-style: solid;
+    border-width: 10px 10px 0px 10px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: #46a4da;;
+    position: relative;
+    top: 1em;
+    right: 1.3em;
+  }
+
+.tlcontenttext {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tlcontenttext h2 {
+  border-bottom-style: solid;
+  border-width: 1px;
+
 }
 
 /*********************************************************************
