@@ -6,10 +6,6 @@ article {
 }
 
 
-
-
-
-
 /*********************************************************************
 class-selectors
 *********************************************************************/
@@ -33,66 +29,71 @@ class-selectors
 .tltimedate {
   display: block;
   text-align: right;
+  color: rgb(200, 200, 200);
 
 }
 
 .tltimetime {
   display: block;
-  text-align: right
-  text-size: 2em;
-}
+  text-align: right;
+  font-size: 2.5em;
 
-.tlicon {
-  z-index: 0;
-  display: inline-block;
-  position: absolute;
-  background-color: #46a4da;
-  top: 0;
-  padding: 1% 1.5% 1% 1.5%;
-  margin: .5% 3.5% 5% 3.5%;
-  border-radius: 100%;
-  border-style:  solid;
-  border-color: #afdcf8;
-  border-width: 15px;
+  color: #46a4da;
+  line-height: .7em;
 }
 
 .tlicon i {
+  z-index: 0;
+  display: inline-block;
+  position: absolute;
   color: white;
   background-color: #46a4da;
   border-radius: 100%;
-  font-size: 2em;
   padding: 1% 1.5% 1% 1.5%;
-  margin: .5% 3.5% 5% 3.5%;
+  margin: 0 3.5% 5% .75%;
+  border-style:  solid;
+  border-color: #afdcf8;
+  border-width: 15px;
+  font-size: 2em;
 }
 
 .content-container {
-  margin: 0 0 0 7.5%;
+  margin: 0 0 0 4.05%;
+  padding: 0 0 2% 0;
   width: 65%;
   display: inline-block;
   border-left-style: solid;
   border-width: 15px;
   border-color: #afdcf8;
 }
+.arrow-container {
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -12px;
+}
+.left-arrow {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  vertical-align: top;
+  margin-top: 10px
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  margin-top: 10px;
+  margin-right: 500px;
+}
+
 
 .tlcontent {
   z-index: 1;
-
-  margin: 0 0 0 15%;
+  margin: 0 0 0 7%;
   padding: 0 1% 0 2%;
   background-color: #46a4da;
   border-radius: 1em;
 }
-.caret {
-    border-style: solid;
-    border-width: 10px 10px 0px 10px;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-    border-top-color: transparent;
-    border-right-color: #46a4da;;
-    position: relative;
-    top: 1em;
-    right: 1.3em;
-  }
 
 .tlcontenttext {
   color: white;
@@ -102,7 +103,6 @@ class-selectors
 .tlcontenttext h2 {
   border-bottom-style: solid;
   border-width: 1px;
-
 }
 
 /*********************************************************************
