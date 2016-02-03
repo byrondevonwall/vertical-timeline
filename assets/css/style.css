@@ -33,7 +33,7 @@ class-selectors
 
 }
 
-.tltimetime {
+.tltimetime1 {
   display: block;
   text-align: right;
   font-size: 2.5em;
@@ -42,7 +42,19 @@ class-selectors
   line-height: .7em;
 }
 
+.tltimetime2 {
+  display: block;
+  text-align: right;
+  font-size: 2.5em;
+
+  color: #3594cb;
+  line-height: .7em;
+}
+
 .tlicon i {
+}
+
+.tlicon {
   z-index: 0;
   display: inline-block;
   position: absolute;
@@ -67,31 +79,30 @@ class-selectors
   border-color: #afdcf8;
 }
 .arrow-container {
+
+}
+.left-arrow1 i{
   position: absolute;
   display: inline-block;
   vertical-align: top;
-  margin-left: -12px;
-}
-.left-arrow {
-  display: inline-block;
-  position: absolute;
-  width: 0;
-  height: 0;
-
-  vertical-align: top;
-  margin-top: 10px
-  border-top: 13px solid transparent;
-  border-bottom: 13px solid transparent;
-  margin-top: 10px;
-  margin-right: 500px;
+  padding-right: 20px;
+  color: #6cbfee;
 }
 
 
-.tlcontent {
+.tlcontent1 {
   z-index: 1;
   margin: 0 0 0 7%;
   padding: 0 1% 0 2%;
-  background-color: #46a4da;
+  background-color: #6cbfee;
+  border-radius: 1em;
+}
+
+.tlcontent2 {
+  z-index: 1;
+  margin: 0 0 0 7%;
+  padding: 0 1% 0 2%;
+  background-color: #3594cb;
   border-radius: 1em;
 }
 
