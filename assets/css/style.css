@@ -7,7 +7,7 @@ article {
 
 
 /*********************************************************************
-class-selectors
+large section class-selectors
 *********************************************************************/
 
 .main {
@@ -17,6 +17,11 @@ class-selectors
 .tlsection {
   display: inline-block;
 }
+
+/*********************************************************************
+date and time class selectors
+*********************************************************************/
+
 
 .tltime {
   z-index: 1;
@@ -50,9 +55,60 @@ class-selectors
   line-height: .7em;
 }
 
+/*********************************************************************
+icon class selectors
+*********************************************************************/
+
+.icon-wrapper {
+  z-index: 0;
+  display: inline-block;
+  position: absolute;
+  /*color: white;
+  background-color: #46a4da;
+  border-radius: 70%;*/
+  padding: .5% 1.5% .5% 1.5%;
+  margin: 0 3.5% 5% .75%;
+  background-color: #46a4da;
+  border-radius: 70%;
+  border-style:  solid;
+  border-color: #afdcf8;
+  border-width: 8px;
+  /*border-style:  solid;
+  border-color: #afdcf8;
+  border-width: 8px;
+  font-size: 2em; */
+}
+
+
 .tlicon i {
 }
 
+.tlicon {
+  color: white;
+
+  font-size: 2em;
+}
+
+
+
+
+.fa-mobile:not(.fa-stack) {
+  font-size: 1em;
+}
+
+.fa-desktop:not(.fa-stack){
+  font-size: .5em;
+}
+
+.fa-globe:not(.fa-stack) {
+  font-size: .6em;
+}
+
+.fa-envelope-o:not(.fa-stack){
+  font-size: .5em;
+  font-weight: bold;
+}
+/*
 .tlicon {
   z-index: 0;
   display: inline-block;
@@ -67,6 +123,12 @@ class-selectors
   border-width: 8px;
   font-size: 2em;
 }
+*/
+
+/*********************************************************************
+content  class selectors
+*********************************************************************/
+
 
 .content-container {
   margin: 0 0 0 3.7%;
@@ -77,6 +139,11 @@ class-selectors
   border-width: 10px;
   border-color: #afdcf8;
 }
+
+/*********************************************************************
+ content caret class selectors
+*********************************************************************/
+
 .arrow-container {
   display: inline-block;
   position: absolute;
@@ -104,6 +171,9 @@ class-selectors
   border-right:10px solid #3594cb;
 }
 
+/*********************************************************************
+content body class selectors
+*********************************************************************/
 
 .tlcontent1 {
   z-index: 1;
